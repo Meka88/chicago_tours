@@ -1,0 +1,13 @@
+.Title {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.Title-Subtitle {
+    color: rgb(85, 100, 85);
+    font-family: sans-serif;
+    font-size: large;
+}
