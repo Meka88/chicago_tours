@@ -1,14 +1,15 @@
 //import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import Title from './Title'; 
 import PLACESList from './PLACESList';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
       <Title />
       <PLACESList/>
+      <Footer />
     </div>
   );
 }

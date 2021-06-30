@@ -3,9 +3,9 @@ import './Title.css';
 
 function Title() {
     return (
-        <div>
+        <div className="Title">
             <h1>CHICAGOTOUR</h1>
-            <div className="Title-Subtitle">Bets places to see in Chicago</div>
+            <div className="Title-Subtitle">Best places to see in Chicago</div>
         </div>
     )
 }
