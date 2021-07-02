@@ -4,9 +4,10 @@ import data from "./places-data.json";
 
 
 function PLACESList() {
-    const places = data.map(({ title, address, images, hours}) => {
+    const places = data.map(({ title, address, images, hours}, i) => {
         return (
             <PLACESSpace
+            id={i}
             key={title}
             name={title}
             address={address}
