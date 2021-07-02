@@ -1,4 +1,4 @@
-import PLACESSpace from '../PLACESSpace';
+import PLACESSpace from '../PLACESSpace/PLACESSpace';
 import './PLACESList.css';
 import data from "../../places-data.json";
 

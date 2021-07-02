@@ -1,11 +1,11 @@
 //import React from 'react';
 import './App.css';
-import Title from './Title'; 
-import PLACESList from './PLACESList';
-import Footer from './Footer';
+import Title from './Title/Title'; 
+import PLACESList from './PLACESList/PLACESList';
+import Footer from './Footer/Footer';
 import { HashRouter as Router, Route } from 'react-router-dom';
-import About from './About';
-import PLACESDetails from './PLACESDetails';
+import About from './About/About';
+import PLACESDetails from './PLACESDetails/PLACESDetails';
 
 function App() {
   return (
