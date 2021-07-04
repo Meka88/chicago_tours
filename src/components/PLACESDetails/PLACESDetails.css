@@ -1,0 +1,31 @@
+.PLACESDetails {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 960px;
+    min-height: 70vh; 
+  /* // temp fix */
+    margin: auto;
+}
+
+.PLACESDetails .PLACESDetails-info {
+    flex: 1;
+    text-align: left;
+    padding: 0 1em;
+}
+
+.PLACESDetails .PLACESDetails-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.PLACESDetails .PLACESDetails-image {
+    flex: 2;
+}
+
+.PLACESDetails .PLACESDetails-image img {
+    width: 100%;
+}
+
+.PLACESDetails .PLACESDetails-hours {
+    font-size: 1.5em;
+}

@@ -1,5 +1,4 @@
-
-
+import './PLACESDetails.css'
 import data from '../../places-data.json'
 
 function PLACESDetails(props) {
@@ -7,17 +6,17 @@ function PLACESDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id]
 
   return (
-    <div>
-      <div>
+    <div className="PLACESDetails">
+      <div className="PLACESDetails-image">
         <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} />
       </div>
 
-      <div>
-        <h1>{ title }</h1>
-        <p>{ desc }</p>
-        <p>{ hours }</p>
-        <p>{ features }</p>
-        <p>{ geo.lat } { geo.lon }</p>
+      <div className="PLACESDetails-info">
+        <h1 className="PLACESDetails-title">{ title }</h1>
+        <p className="PLACESDetails-desc">{ desc }</p>
+        <p className="PLACESDetails-hours">{ hours }</p>
+        <p className="PLACESDetails-features">{ features }</p>
+        <p className="PLACESDetails-geo">{ geo.lat } { geo.lon }</p>
       </div>
 
     </div>
