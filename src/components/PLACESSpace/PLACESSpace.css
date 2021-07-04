@@ -1,13 +1,57 @@
 .PLACESSpace {
   width: 100%;
   text-align: center;
+  position: relative;
 }
 
-.PLACESSpace > img {
+.PLACESSpace img {
   width: 100%;
   height: auto;
+  position: relative;
 }
 .hours {
   font-style: italic;
   font-size: 14px;
+}
+/* .PLACESSpace .PLACESSpace-title {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+.PLACESSpace h1 {
+    margin: 0;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* .PLACESSpace .PLACESSpace-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+} */
+
+/* .PLACESSpace .PLACESSpace-info div {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  background-color: rgba(255, 255, 255, 0.9);
+} */
+.PLACESSpace-name{
+  position: absolute;
+  top: 8px;
+  right: 80px;
+
+}
+.PLACESSpace-info{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  left: 50px;
+  text-align: right;
+  font-weight: bolder;
+  background-color: rgb(255, 255, 255, 0.9);
 }
