@@ -1,6 +1,7 @@
 import React from 'react';
 import './PageHeader.css';
 import { NavLink } from 'react-router-dom'
+import RandomPlace from '../RandomPlace/RandomPlace'
 
 function PageHeader() {
     return (
@@ -27,6 +28,7 @@ function PageHeader() {
                 activeClassName="nav-link-active"
                 exact 
                 to="/about">About</NavLink>
+                <RandomPlace />
             </div>
             </header>
         </div>

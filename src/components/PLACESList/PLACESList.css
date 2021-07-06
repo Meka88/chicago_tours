@@ -2,7 +2,7 @@
     /* width: calc(100% - 80%); */
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-gap: 2em;
     max-width: 1200px;
     padding: 2em;
