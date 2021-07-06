@@ -1,5 +1,6 @@
 import './PLACESDetails.css'
 import data from '../places-data/places-data.js'
+import PLACESFeatureList from '../PLACESFeature.js/PLACESFeatureList'
 
 function PLACESDetails(props) {
   const { id } = props.match.params // Location index
@@ -15,7 +16,9 @@ function PLACESDetails(props) {
         <h1 className="PLACESDetails-title">{ title }</h1>
         <p className="PLACESDetails-desc">{ desc }</p>
         <p className="PLACESDetails-hours">{ hours }</p>
-        <p className="PLACESDetails-features">{ features }</p>
+        {/* <p className="PLACESDetails-features">{ features }</p> */}
+        <p className="PLACESDetails-geo">{ geo.lat } { geo.lon }</p>
+        <PLACESFeatureList features={features}/>
         <p className="PLACESDetails-geo">{ geo.lat } { geo.lon }</p>
       </div>
 
