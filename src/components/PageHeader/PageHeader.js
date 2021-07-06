@@ -1,15 +1,23 @@
 import React from 'react';
-import './Title.css';
+import './PageHeader.css';
 import { NavLink } from 'react-router-dom'
 
-function Title() {
+function PageHeader() {
     return (
-        <div className="Title">
+        <div className="PageHeader">
             <header>
             <h1>CHICAGOTOUR</h1>
-            <div className="Title-Subtitle">Best places to see in Chicago</div>
+            <div className="PageHeader-Subtitle">Best places to see in Chicago</div>
 
             <div>
+            <form className="button-search">
+                <input
+                    // value={query}
+                    // placeholder="search"
+                    // onChange={(e) => setQuery(e.target.value)}
+                />
+                <button type="submit">Search</button>
+            </form>
                 <NavLink 
                 className="nav-link"
                 activeClassName="nav-link-active"
@@ -25,4 +33,4 @@ function Title() {
     )
 }
 
-export default Title
+export default PageHeader

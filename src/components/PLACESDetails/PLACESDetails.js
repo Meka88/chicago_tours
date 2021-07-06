@@ -1,5 +1,5 @@
 import './PLACESDetails.css'
-import data from '../../places-data.json'
+import data from '../places-data/places-data.js'
 
 function PLACESDetails(props) {
   const { id } = props.match.params // Location index

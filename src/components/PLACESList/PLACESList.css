@@ -19,3 +19,26 @@
         grid-template-columns: 1fr;
     }
 }
+.PLACESList form {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .PLACESList form input, .PLACESList form button {
+    padding: 0.5em;
+    margin: 0;
+    border: 1px solid;
+    font-size: 1;
+  }
+  
+  .PLACESList form input {
+    flex: 1;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+  }
+  
+  .PLACESList form button {
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+  }
+ 
