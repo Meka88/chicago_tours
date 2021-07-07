@@ -2,7 +2,7 @@
 
 function About() {
     return (
-      <div>
+      <div style={{minHeight: "70vh"}}>
         <h1>About CHICAGOTOUR</h1>
         <p>Chicago, on Lake Michigan in Illinois, is among the largest cities in 
         the U.S. Famed for its bold architecture, it has a skyline punctuated by skyscrapers such as 

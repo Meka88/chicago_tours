@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './PageHeader.css';
 import { NavLink } from 'react-router-dom'
 import RandomPlace from '../RandomPlace/RandomPlace'
@@ -11,14 +11,6 @@ function PageHeader() {
             <div className="PageHeader-Subtitle">Best places to see in Chicago</div>
 
             <div>
-            <form className="button-search">
-                <input
-                    // value={query}
-                    // placeholder="search"
-                    // onChange={(e) => setQuery(e.target.value)}
-                />
-                <button type="submit">Search</button>
-            </form>
                 <NavLink 
                 className="nav-link"
                 activeClassName="nav-link-active"
